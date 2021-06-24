@@ -9,7 +9,7 @@ public class Citas {
     int idPaciente;
     String motivoCita;
 
-    Public Citas (LocalDateTime fecha, int doctorId, int pacienteId, String motivo){
+    public Citas (LocalDateTime fecha, int doctorId, int pacienteId, String motivo){
         fechaCita = fecha;
         idDoctor = doctorId;
         idPaciente = pacienteId;
