@@ -1,15 +1,16 @@
 package com.company;
 
 import java.time.LocalDateTime;
+import java.util.Date;
 
 public class Citas {
     int id;
-    LocalDateTime fechaCita;
+    Date fechaCita;
     int idDoctor;
     int idPaciente;
     String motivoCita;
 
-    public Citas (LocalDateTime fecha, int doctorId, int pacienteId, String motivo){
+    public Citas (Date fecha, int doctorId, int pacienteId, String motivo){
         fechaCita = fecha;
         idDoctor = doctorId;
         idPaciente = pacienteId;
