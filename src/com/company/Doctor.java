@@ -5,10 +5,10 @@ public class Doctor {
     String nombreDoctor;
     String esp;
 
-    public Doctor(String nombre, String especialidad){
+    public Doctor(int id, String nombre, String especialidad){
         nombreDoctor = nombre;
         esp = especialidad;
-
+        id = id;
     }
 }
 

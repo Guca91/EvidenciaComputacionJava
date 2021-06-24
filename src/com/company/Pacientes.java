@@ -4,9 +4,8 @@ public class Pacientes {
     String nombrePaciente;
     int id;
 
-    public Pacientes(String nombre){
+    public Pacientes(int id, String nombre){
         nombrePaciente = nombre;
-
-
+        id = id;
     }
 }
